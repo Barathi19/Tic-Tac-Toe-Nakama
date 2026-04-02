@@ -53,13 +53,6 @@ To fully reset the database and data (useful for wiping leaderboards or accounts
 ```bash
 docker-compose down -v
 ```
-
-## Useful Ports & Services
-
-- **Nakama Console:** [http://127.0.0.1:7351](http://127.0.0.1:7351) (Username: `admin`, Password: `password`)
-- **Nakama API:** `127.0.0.1:7350` (Used directly by the frontend Client)
-- **Postgres Database:** `127.0.0.1:5432` 
-
 ## Making Changes to Game Logic
 
 If you modify elements in `src/index.ts` (e.g., game rules, match handling):
