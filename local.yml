@@ -1,0 +1,9 @@
+logger:
+  level: "DEBUG"
+console:
+  port: 7351
+  enabled: false
+matchmaker:
+  max_tickets: 2
+session:
+  token_expiry_sec: 7200

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "build",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["nakama-runtime"],
+    "lib": ["es5", "es2015", "es2017"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
